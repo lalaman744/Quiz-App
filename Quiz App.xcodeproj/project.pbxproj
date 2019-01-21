@@ -14,6 +14,7 @@
 		B81350CE21F57A0500C4360B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81350CC21F57A0500C4360B /* LaunchScreen.storyboard */; };
 		B81350D921F57A0600C4360B /* Quiz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81350D821F57A0600C4360B /* Quiz_AppTests.swift */; };
 		B81350E421F57A0600C4360B /* Quiz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81350E321F57A0600C4360B /* Quiz_AppUITests.swift */; };
+		B88BD48A21F62BB300E15E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BD48921F62BB300E15E7F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B81350DF21F57A0600C4360B /* Quiz AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81350E321F57A0600C4360B /* Quiz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_AppUITests.swift; sourceTree = "<group>"; };
 		B81350E521F57A0600C4360B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88BD48921F62BB300E15E7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B81350C321F57A0400C4360B /* AppDelegate.swift */,
 				B81350C521F57A0400C4360B /* ViewController.swift */,
+				B88BD48921F62BB300E15E7F /* ViewController.swift */,
 				B81350C721F57A0400C4360B /* Main.storyboard */,
 				B81350CA21F57A0500C4360B /* Assets.xcassets */,
 				B81350CC21F57A0500C4360B /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88BD48A21F62BB300E15E7F /* ViewController.swift in Sources */,
 				B81350C621F57A0400C4360B /* ViewController.swift in Sources */,
 				B81350C421F57A0400C4360B /* AppDelegate.swift in Sources */,
 			);
